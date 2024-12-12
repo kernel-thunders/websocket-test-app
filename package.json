@@ -1,27 +1,25 @@
 {
-  "name": "websocket-app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "my-websocket-app",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "dev:server": "ts-node-dev server/server.ts"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.0"
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "next": "13.4.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "eslint": "^9",
-    "eslint-config-next": "15.1.0",
-    "@eslint/eslintrc": "^3"
+    "typescript": "^5.0.4",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "ts-node-dev": "^2.0.0"
   }
 }
+
